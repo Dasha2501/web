@@ -1,0 +1,10 @@
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button{
+  background:green ;
+  color:white;
+  width: 80px;
+}
