@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #fff;
+    color: #222;
+    padding: 15px 30px;
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 30px;
+        margin-right: 10px;
+    }
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+
+    input {
+        width: 400px;
+        padding: 5px;
+        border: 1px solid #222;
+        border-radius: 5px 0 0 5px;
+    }
+}
+
+.searchBtn {
+    padding: 5px 10px;
+    background-color: #eee;
+    color: white;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.userMenu {
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-left: 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+.category-bar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.category-bar button {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.category-bar button:hover {
+    background-color: #ff0000; /* Червоний фон при наведенні */
+    color: white; /* Білий текст при наведенні */
+}
+
+.main-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 240px;
+    padding: 20px;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    svg {
+        width: 24px !important;
+        height: 24px !important;
+        margin: 0 15px 0 0;
+    }
+
+    &:hover {
+        background-color: #f1f1f1;
+        
+    }
+}
+
+.sidebar ul li:hover {
+    color: #ff0000; /* Червоний текст при наведенні */
+}
+
+.sidebar hr {
+    margin: 15px 0;
+}
+
+.sidebar h4 {
+    margin-bottom: 10px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: flex-start;
+}
+
+.video-card {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.video-card:hover {
+    transform: scale(1.05);
+}
+
+.video-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.video-card h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.video-card p {
+    color: #606060;
+    font-size: 14px;
+}
+/* .sidebar ul  */
