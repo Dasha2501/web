@@ -1,0 +1,35 @@
+body{
+    background-color: whitesmoke;
+    color: grey;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+    color: darkgreen;
+    width: 500px; 
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .registration-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green; 
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 0 0;
+  }
