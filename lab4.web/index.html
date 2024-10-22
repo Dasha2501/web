@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Planner 2024</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="planner-container">
+        <header>
+            <h1>WEEKLY PLAN 2024</h1>
+            <div class="header-inputs">
+                <div>
+                    <label for="week">WEEK OF</label>
+                    <input type="text" id="week" placeholder="Enter week...">
+                </div>
+                <div>
+                    <label for="habit">HEALTHY HABIT</label>
+                    <input type="text" id="habit" placeholder="Enter habit...">
+                </div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> ROCKED IT</label>
+                    <label><input type="checkbox"> ROOM FOR IMPROVEMENT</label>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="goals">
+                <h3>TOP 3 GOALS</h3>
+                <ul>
+                    <li><input type="checkbox"> <input type="text" placeholder="Goal 1"></li>
+                    <li><input type="checkbox"> <input type="text" placeholder="Goal 2"></li>
+                    <li><input type="checkbox"> <input type="text" placeholder="Goal 3"></li>
+                </ul>
+
+                <h3>EVERYTHING ELSE</h3>
+                <ul>
+                    <li><input type="checkbox"> <input type="text" placeholder="Task 1"></li>
+                    <li><input type="checkbox"> <input type="text" placeholder="Task 2"></li>
+                    <li><input type="checkbox"> <input type="text" placeholder="Task 3"></li>
+                </ul>
+
+                <h3>NEXT WEEK</h3>
+                <ul>
+                    <li><input type="checkbox"> <input type="text" placeholder="Plan ahead..."></li>
+                </ul>
+            </div>
+
+            <div class="calendar">
+                <div class="day"><h3>MONDAY</h3></div>
+                <div class="day"><h3>TUESDAY</h3></div>
+                <div class="day"><h3>WEDNESDAY</h3></div>
+                <div class="day"><h3>THURSDAY</h3></div>
+                <div class="day"><h3>FRIDAY</h3></div>
+                <div class="day"><h3>SATURDAY</h3></div>
+                <div class="day"><h3>SUNDAY</h3></div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
