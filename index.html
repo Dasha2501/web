@@ -1,75 +1,237 @@
 <!DOCTYPE html>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Якименко Дар'я</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <div class="wrraper">
-    <header><h1>Особистий веб-сайт  студентки Якименко Дар'я </h1></header>
-    <nav>
-<ul>
-<li>
-  <a href="index.html">Головна</a>
-</li>
-<li> 
-  <a href="#about">Про мене</a>
-</li>
-<li>
-  <a href="#projects">Практичні заняття</a>
-</li>
-<li>
-  <a href="#labs">Лабораторні роботи</a>
-</li>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Darya Yakymenko - Junior QA Manual</title>
+		<link rel="stylesheet" href="./assets/styles/style.css" />
 
-</ul>
-    </nav>
-    <section id="home">
-      <h1>Головна</h1>
-      <p>Ласкаво просимо на мій особийстий веб-сайт!</p>
-    </section>
-    <section id="about">
-      <h2>Про мене</h2>
-      <p> Привіт , мене звати Дар'я і я студентка 2 курсу ,навчаюсь на 121 спеціальності . Вивчаю тестування та багато іншого , але хочу розвиватись у сфері QA . Маю невеликий досвід . Працюю над вдосконаленням  своїх знань та навичок у сфері QA,щоб стати професіоналом у тестуванні програмного забезпечення   </p>
-    </section>
-    <section id="projects">
-      <h2>Практичні роботи</h2>
-     <ul>
-      <li>
-        <a href="https://dasha2501.github.io/web/timetable.html" target="_blank">Практична робота №1 : Таблиця розкладу занять</a>
-      </li>
-      <li>
-        <a href="https://dasha2501.github.io/web/index.html" target="_blank">Практична робота №2 : Резюме</a>
-      </li>
-      <li>
-        <a href="./Web%20практика%203/index.html" target="_blank">Практична робота №3 : Youtube</a>
-      </li>
-      <li>
-        <a href="./pz4/index.html" target="_blank">Практична робота №4 : Styling register form</a>
-      </li>
-     </ul>
-    </section>
-    <section id="labs">
-      <h2>Лабораторні роботи</h2>
-     <ul>
-      <li>
-        <a href="https://dasha2501.github.io/web/lab1%20web/index.html" target="_blank">Лабораторна  робота №1 : Форма реєстрації</a>
-      </li>
-      <li>
-        <a href="https://dasha2501.github.io/web/lab%202%20web/lab2.html" target="_blank">Лабораторна  робота №2 : CSS</a>
-      </li>
-      <li>
-        <a href="https://dasha2501.github.io/web/Web%20%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0%203/index.html" target="_blank">Лабораторна  робота №3 : Youtube</a>
-      </li>
-     </ul>
-    </section>
-    <footer>
-      <p>Контактна інформація: dasaakimenko860@gmail.com</p>
-      <p>GitHub: <a href="https://github.com/Dasha2501" target="_blank">Dasha2501</a></p>
-      <p>Darya Yakymenko <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg" alt="Ukraine flag" width="20"></p>
-  </footer>
-  </div>
-</body>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script src="./assets/js/script.js" defer></script>
+	</head>
+	<body>
+		<div id="mainBody">
+			<header class="header">
+				<div class="wrapper">
+					<nav class="nav" role="navigation">
+						<ul>
+							<li>
+								<a href="./index.html" class="navLink active">Home</a>
+							</li>
+							<li>
+								<a href="#about" class="navLink">About</a>
+							</li>
+							<li>
+								<a href="#pzs">Practicals</a>
+							</li>
+							<li>
+								<a href="#labs">Labs</a>
+							</li>
+							<li>
+								<a href="./timetable.html">Timetable</a>
+							</li>
+						</ul>
+					</nav>
+
+					<button type="button" class="burgerNav">
+						<span class="burgerLine"></span>
+					</button>
+				</div>
+			</header>
+
+			<main class="main">
+				<section class="about" id="about">
+					<div class="wrapper">
+						<div class="aboutBody">
+							<div class="aboutInfo">
+								<h1>Hi, I'm Darya, QA Manual</h1>
+								<p>
+									Hello, my name is Daria and I am a 2nd year student, I study
+									121 specialties. I study testing and many other things, but I
+									want to develop in the field of QA. I have a little
+									experience. I am working on improving my knowledge and skills
+									in the field of QA to become a professional in software
+									testing.
+								</p>
+								<a
+									href="https://cozy-chebakia-2835b8.netlify.app/"
+									target="_blank"
+								>
+									<button type="button">Go to CV</button>
+								</a>
+							</div>
+
+							<img
+								src="./assets/images/photo.jpg"
+								alt="User photo"
+								class="aboutImage"
+							/>
+						</div>
+					</div>
+				</section>
+
+				<section class="pzs" id="pzs">
+					<div class="wrapper">
+						<h2>Практичні роботи</h2>
+
+						<div class="pzsBody">
+							<div class="pz">
+								<h3>
+									<a href="./timetable.html" target="_blank"
+										>Практична робота №1 : Таблиця розкладу занять</a
+									>
+								</h3>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+									quibusdam facilis quisquam nobis eos. Dicta saepe magnam
+									perferendis. Est molestiae labore error officia minima quas
+									modi molestias quam blanditiis reiciendis!
+								</p>
+							</div>
+							<div class="pz">
+								<h3>
+									<a href="./Web%20практика%202/index.html" target="_blank"
+										>Практична робота №2 : Резюме</a
+									>
+								</h3>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+									cum eligendi voluptates itaque eaque laborum quam. Rem quaerat
+									eum, aut quibusdam sit delectus repellat magni aspernatur
+									vitae, esse asperiores molestiae!
+								</p>
+							</div>
+							<div class="pz">
+								<h3>
+									<a href="./Web%20практика%203/index.html" target="_blank"
+										>Практична робота №3 : Youtube</a
+									>
+								</h3>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+									quidem dolor et magni modi soluta cumque necessitatibus
+									quaerat nihil nam obcaecati reiciendis, reprehenderit
+									inventore accusamus quos, laudantium unde, similique expedita.
+								</p>
+							</div>
+							<div class="pz">
+								<h3>
+									<a href="./pz4/index.html" target="_blank"
+										>Практична робота №4 : Styling register form</a
+									>
+								</h3>
+								<p>
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+									Incidunt veritatis eligendi aut dolores optio esse et nam
+									explicabo pariatur? Corrupti, iure nesciunt! Quaerat, animi
+									consectetur! Unde esse modi asperiores quod.
+								</p>
+							</div>
+							<div class="pz">
+								<h3>
+									<a href="./pz5/index.html" target="_blank"
+										>Практична робота №5 : Клавіатура</a
+									>
+								</h3>
+								<p>
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+									Incidunt veritatis eligendi aut dolores optio esse et nam
+									explicabo pariatur? Corrupti, iure nesciunt! Quaerat, animi
+									consectetur! Unde esse modi asperiores quod.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="labs" id="labs">
+					<div class="wrapper">
+						<h2>Лабораторні роботи</h2>
+
+						<div class="labsBody">
+							<div class="lab">
+								<h3>
+									<a href="./lab1%20web/index.html"
+										>Лабораторна робота №1 : Форма реєстрації</a
+									>
+								</h3>
+								<p>
+									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+									Voluptatum doloremque architecto doloribus, voluptates velit
+									repellendus non cum porro, et impedit nesciunt fuga autem
+									minus itaque veritatis necessitatibus nisi fugit nostrum.
+								</p>
+							</div>
+							<div class="lab">
+								<h3>
+									<a href="./lab%202%20web/lab2.html"
+										>Лабораторна робота №2 : CSS</a
+									>
+								</h3>
+								<p>
+									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+									Consequatur reprehenderit recusandae amet rem iure! Optio
+									numquam error, praesentium ipsa corporis sit vitae obcaecati
+									ea. Perspiciatis nam deleniti hic tenetur facere!
+								</p>
+							</div>
+							<div class="lab">
+								<h3>
+									<a href="./Web%20практика%203/index.html"
+										>Лабораторна робота №3 : Youtube</a
+									>
+								</h3>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Quidem maiores veritatis tempore sint? Eaque, voluptate
+									aliquam doloremque obcaecati autem amet modi mollitia sunt
+									omnis corporis tempore perferendis tempora, nostrum nesciunt!
+								</p>
+							</div>
+							<div class="lab">
+								<h3>
+									<a href="./lab4.web/index.html"
+										>Лабораторна робота №4 : Weekly planner</a
+									>
+								</h3>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+									expedita, quam minima quaerat odit fugiat veniam vitae illum
+									velit error fuga distinctio eligendi recusandae ipsa? Commodi
+									libero nam blanditiis corrupti!
+								</p>
+							</div>
+							<div class="lab">
+								<h3>
+									<a href="./lab5/index.html"
+										>Лабораторна робота №5 : Оновлення резюме</a
+									>
+								</h3>
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+									Quidem, tempora quia? Laudantium ipsa, ullam quos cumque quas
+									perferendis consequuntur modi nesciunt at illo ad commodi
+									soluta numquam! Ratione, necessitatibus maiores?
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<footer class="footer">
+				<div class="wrapper">
+					<div class="footerBody">
+						<p>Copyright &copy;2024 All rights reserved</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
 </html>
