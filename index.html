@@ -1,237 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Darya Yakymenko - Junior QA Manual</title>
-		<link rel="stylesheet" href="./assets/styles/style.css" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yakymenko Darya - QA Manual</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
 
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
-			rel="stylesheet"
-		/>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-		<script src="./assets/js/script.js" defer></script>
-	</head>
-	<body>
-		<div id="mainBody">
-			<header class="header">
-				<div class="wrapper">
-					<nav class="nav" role="navigation">
-						<ul>
-							<li>
-								<a href="./index.html" class="navLink active">Home</a>
-							</li>
-							<li>
-								<a href="#about" class="navLink">About</a>
-							</li>
-							<li>
-								<a href="#pzs">Practicals</a>
-							</li>
-							<li>
-								<a href="#labs">Labs</a>
-							</li>
-							<li>
-								<a href="./timetable.html">Timetable</a>
-							</li>
-						</ul>
-					</nav>
+	<script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+    <div id="root">
+      <header class="header">
+        <div class="wrapper">
+          <nav class="nav" role="navigation">
+            <ul>
+              <li>
+                <a href="./index.html" class="navLink active">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="navLink">About</a>
+              </li>
+              <li>
+                <a href="#pzs">Practicals</a>
+              </li>
+              <li>
+                <a href="#labs">Labs</a>
+              </li>
+              <li>
+                <a href="./timetable.html">Timetable</a>
+              </li>
+            </ul>
+          </nav>
 
-					<button type="button" class="burgerNav">
-						<span class="burgerLine"></span>
-					</button>
+          <button type="button" class="burgerNav">
+            <span class="burgerLine"></span>
+          </button>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="about" id="about">
+          <div class="wrapper">
+            <div class="aboutBody">
+              <div class="aboutInfo">
+                <h1>Hi, I'm Darya, QA Manual</h1>
+                <p>
+                  Front-end developer, no commercial experience, with more than
+                  2 years of web development experience, including personal and
+                  open source projects. My goal is to continue to develop my
+                  skills and contribute to web development projects that value
+                  creativity, innovation, and user-centered design.
+                </p>
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <button type="button">Download Resume</button>
+                </a>
+              </div>
+
+              <img
+                src="./assets/images/photo.jpg"
+                alt="User photo"
+                class="aboutImage"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="pzs" id="pzs">
+          <div class="wrapper">
+            <h2>Практичні роботи</h2>
+
+
+            <div class="pzsBody">
+				<div class="pz">
+				  <h3>
+					<a href="./timetable.html">Практична робота №1 : Таблиця розкладу занять</a>
+				  </h3>
+				  <p class="dateAuthor">12 Feb 2020 | Design, Pattern</p>
+				  <p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+					cum eligendi voluptates itaque eaque laborum quam. Rem quaerat
+					eum, aut quibusdam sit delectus repellat magni aspernatur
+					vitae, esse asperiores molestiae!
+				  </p>
 				</div>
-			</header>
-
-			<main class="main">
-				<section class="about" id="about">
-					<div class="wrapper">
-						<div class="aboutBody">
-							<div class="aboutInfo">
-								<h1>Hi, I'm Darya, QA Manual</h1>
-								<p>
-									Hello, my name is Daria and I am a 2nd year student, I study
-									121 specialties. I study testing and many other things, but I
-									want to develop in the field of QA. I have a little
-									experience. I am working on improving my knowledge and skills
-									in the field of QA to become a professional in software
-									testing.
-								</p>
-								<a
-									href="https://cozy-chebakia-2835b8.netlify.app/"
-									target="_blank"
-								>
-									<button type="button">Go to CV</button>
-								</a>
-							</div>
-
-							<img
-								src="./assets/images/photo.jpg"
-								alt="User photo"
-								class="aboutImage"
-							/>
-						</div>
-					</div>
-				</section>
-
-				<section class="pzs" id="pzs">
-					<div class="wrapper">
-						<h2>Практичні роботи</h2>
-
-						<div class="pzsBody">
-							<div class="pz">
-								<h3>
-									<a href="./timetable.html" target="_blank"
-										>Практична робота №1 : Таблиця розкладу занять</a
-									>
-								</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-									quibusdam facilis quisquam nobis eos. Dicta saepe magnam
-									perferendis. Est molestiae labore error officia minima quas
-									modi molestias quam blanditiis reiciendis!
-								</p>
-							</div>
-							<div class="pz">
-								<h3>
-									<a href="./Web%20практика%202/index.html" target="_blank"
-										>Практична робота №2 : Резюме</a
-									>
-								</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-									cum eligendi voluptates itaque eaque laborum quam. Rem quaerat
-									eum, aut quibusdam sit delectus repellat magni aspernatur
-									vitae, esse asperiores molestiae!
-								</p>
-							</div>
-							<div class="pz">
-								<h3>
-									<a href="./Web%20практика%203/index.html" target="_blank"
-										>Практична робота №3 : Youtube</a
-									>
-								</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-									quidem dolor et magni modi soluta cumque necessitatibus
-									quaerat nihil nam obcaecati reiciendis, reprehenderit
-									inventore accusamus quos, laudantium unde, similique expedita.
-								</p>
-							</div>
-							<div class="pz">
-								<h3>
-									<a href="./pz4/index.html" target="_blank"
-										>Практична робота №4 : Styling register form</a
-									>
-								</h3>
-								<p>
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-									Incidunt veritatis eligendi aut dolores optio esse et nam
-									explicabo pariatur? Corrupti, iure nesciunt! Quaerat, animi
-									consectetur! Unde esse modi asperiores quod.
-								</p>
-							</div>
-							<div class="pz">
-								<h3>
-									<a href="./pz5/index.html" target="_blank"
-										>Практична робота №5 : Клавіатура</a
-									>
-								</h3>
-								<p>
-									Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-									Incidunt veritatis eligendi aut dolores optio esse et nam
-									explicabo pariatur? Corrupti, iure nesciunt! Quaerat, animi
-									consectetur! Unde esse modi asperiores quod.
-								</p>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<section class="labs" id="labs">
-					<div class="wrapper">
-						<h2>Лабораторні роботи</h2>
-
-						<div class="labsBody">
-							<div class="lab">
-								<h3>
-									<a href="./lab1%20web/index.html"
-										>Лабораторна робота №1 : Форма реєстрації</a
-									>
-								</h3>
-								<p>
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Voluptatum doloremque architecto doloribus, voluptates velit
-									repellendus non cum porro, et impedit nesciunt fuga autem
-									minus itaque veritatis necessitatibus nisi fugit nostrum.
-								</p>
-							</div>
-							<div class="lab">
-								<h3>
-									<a href="./lab%202%20web/lab2.html"
-										>Лабораторна робота №2 : CSS</a
-									>
-								</h3>
-								<p>
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Consequatur reprehenderit recusandae amet rem iure! Optio
-									numquam error, praesentium ipsa corporis sit vitae obcaecati
-									ea. Perspiciatis nam deleniti hic tenetur facere!
-								</p>
-							</div>
-							<div class="lab">
-								<h3>
-									<a href="./Web%20практика%203/index.html"
-										>Лабораторна робота №3 : Youtube</a
-									>
-								</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Quidem maiores veritatis tempore sint? Eaque, voluptate
-									aliquam doloremque obcaecati autem amet modi mollitia sunt
-									omnis corporis tempore perferendis tempora, nostrum nesciunt!
-								</p>
-							</div>
-							<div class="lab">
-								<h3>
-									<a href="./lab4.web/index.html"
-										>Лабораторна робота №4 : Weekly planner</a
-									>
-								</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-									expedita, quam minima quaerat odit fugiat veniam vitae illum
-									velit error fuga distinctio eligendi recusandae ipsa? Commodi
-									libero nam blanditiis corrupti!
-								</p>
-							</div>
-							<div class="lab">
-								<h3>
-									<a href="./lab5/index.html"
-										>Лабораторна робота №5 : Оновлення резюме</a
-									>
-								</h3>
-								<p>
-									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-									Quidem, tempora quia? Laudantium ipsa, ullam quos cumque quas
-									perferendis consequuntur modi nesciunt at illo ad commodi
-									soluta numquam! Ratione, necessitatibus maiores?
-								</p>
-							</div>
-						</div>
-					</div>
-				</section>
-			</main>
-
-			<footer class="footer">
-				<div class="wrapper">
-					<div class="footerBody">
-						<p>Copyright &copy;2024 All rights reserved</p>
-					</div>
+				<div class="pz">
+				  <h3>
+					<a href="./index.html">Практична робота №2 : Резюме</a>
+				  </h3>
+				  <p class="dateAuthor">12 Feb 2020 | Figma, Icon Design</p>
+				  <p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+					cum eligendi voluptates itaque eaque laborum quam. Rem quaerat
+					eum, aut quibusdam sit delectus repellat magni aspernatur
+					vitae, esse asperiores molestiae!
+				  </p>
 				</div>
-			</footer>
+				<div class="pz">
+				  <h3>
+					<a href="./Web%20практика%203/index.html">Практична робота №3 : Youtube</a>
+				  </h3>
+				  <p class="dateAuthor">12 Feb 2020 | Design, Pattern</p>
+				  <p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+					quidem dolor et magni modi soluta cumque necessitatibus
+					quaerat nihil nam obcaecati reiciendis, reprehenderit
+					inventore accusamus quos, laudantium unde, similique expedita.
+				  </p>
+				</div>
+				<div class="pz">
+				  <h3>
+					<a href="./pz4/index.html">Практична робота №4 : Styling register form</a>
+				  </h3>
+				  <p class="dateAuthor">12 Feb 2020 | Figma, Icon Design</p>
+				  <p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+					Incidunt veritatis eligendi aut dolores optio esse et nam
+					explicabo pariatur? Corrupti, iure nesciunt! Quaerat, animi
+					consectetur! Unde esse modi asperiores quod.
+				  </p>
+				</div>
+				<div class="pz">
+				  <h3>
+					<a href="./pz5/index.html">Практична робота №5 : Клавіатура</a>
+				  </h3>
+				  <p class="dateAuthor">12 Feb 2020 | Design, Pattern</p>
+				  <p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Nesciunt nobis enim non tempore nihil deserunt velit fugiat
+					odit, culpa quos error ipsum quidem dicta suscipit aperiam
+					voluptate! Praesentium, magnam ea!
+				  </p>
+				</div>
+			  </div>
+			</div>
+		  </section>
+  
+		  <section class="labs" id="labs">
+			<div class="wrapper">
+			  <h2>Лабораторні роботи</h2>
+
+
+			  <div class="labsBody">
+				<div class="lab">
+				  <img
+					src="./assets/images/Rectangle 30.png"
+					alt="Lab 1"
+					class="labImage"
+				  />
+				  <div class="labBody">
+					<h3>
+					  <a href="./lab1%20web/index.html">Лабораторна робота 1</a>
+					</h3>
+					<p><span>2024</span> Labs</p>
+					<p>
+					  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					  Placeat sapiente tempora quibusdam. Amet recusandae nemo
+					  magni laboriosam vitae sit iusto non in odit soluta eos
+					  cupiditate nesciunt, sapiente beatae doloribus.
+					</p>
+				  </div>
+				</div>
+				<div class="lab">
+				  <img
+					src="./assets/images/Rectangle 32.png"
+					alt="Lab 2"
+					class="labImage"
+				  />
+				  <div class="labBody">
+					<h3>
+					  <a href="./lab%202%20web/lab2.html">Лабораторна робота №2 : CSS</a>
+					</h3>
+					<p><span>2024</span> Labs</p>
+					<p>
+					  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					  Ipsam aperiam sed ab quia veritatis, quisquam et veniam
+					  deleniti accusantium ducimus, dolor ratione sequi officiis,
+					  eius voluptas laborum error sapiente temporibus!
+					</p>
+				  </div>
+				</div>
+				<div class="lab">
+				  <img
+					src="./assets/images/Rectangle 34.png"
+					alt="Lab 3"
+					class="labImage"
+				  />
+				  <div class="labBody">
+					<h3>
+					  <a href="./Web%20практика%203/index.html">Лабораторна робота №3 : Youtube</a>
+					</h3>
+					<p><span>2024</span> Labs</p>
+					<p>
+					  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+					  quidem dolor et magni modi soluta cumque necessitatibus
+					  quaerat nihil nam obcaecati reiciendis, reprehenderit
+					  inventore accusamus quos, laudantium unde, similique
+					  expedita.
+					</p>
+				  </div>
+				</div>
+				<div class="lab">
+				  <img
+					src="./assets/images/Rectangle 30.png"
+					alt="Lab 4"
+					class="labImage"
+				  />
+				  <div class="labBody">
+					<h3>
+					  <a href="./lab4.web/index.html">Лабораторна робота №4 : Weekly planner</a>
+					</h3>
+					<p><span>2024</span> Labs</p>
+					<p>
+					  Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+					  expedita, quam minima quaerat odit fugiat veniam vitae illum
+					  velit error fuga distinctio eligendi recusandae ipsa?
+					  Commodi libero nam blanditiis corrupti!
+					</p>
+				  </div>
+				</div>
+				<div class="lab">
+				  <img
+					src="./assets/images/Rectangle 32.png"
+					alt="Lab 5"
+					class="labImage"
+				  />
+				  <div class="labBody">
+					<h3>
+					  <a href="./lab5/index.html">Лабораторна робота №5 : Оновлення резюме</a>
+					</h3>
+					<p><span>2024</span> Labs</p>
+					<p>
+					  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+					  Quidem, tempora quia? Laudantium ipsa, ullam quos cumque
+					  quas perferendis consequuntur modi nesciunt at illo ad
+					  commodi soluta numquam! Ratione, necessitatibus maiores?
+					</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </section>
+		</main>
+
+
+		<footer class="footer">
+			<div class="wrapper">
+			  <div class="footerBody">
+				<div>
+				  <a href="https://www.facebook.com/" target="_blank"><img src="./assets/images/fb.png" alt="Facebook" /></a>
+				  <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/insta.png" alt="Instagram" /></a>
+				  <a href="https://x.com/" target="_blank"><img src="./assets/images/Group.png" alt="Twitter" /></a>
+				  <a href="https://ua.linkedin.com/" target="_blank"><img src="./assets/images/Linkedin.png" alt="LinkedIn" /></a>
+				</div>
+				<p>Copyright &copy;<span></span>. All rights reserved</p>
+			  </div>
+			</div>
+		  </footer>
 		</div>
-	</body>
-</html>
+	  </body>
+	</html>
+		
