@@ -1,0 +1,16 @@
+.snowflake img {
+	width: 100px;
+	height: 150px;
+	background: url('../images/tree.png') no-repeat center/contain;
+	animation: spin infinite 3s linear;
+}
+
+@keyframes spin {
+	0%,
+	100% {
+		transform: scale(1.2);
+	}
+	50% {
+		transform: scale(1);
+	}
+}
